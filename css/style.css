@@ -3,9 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     background-color: blue;
 }
+
+/* Header */
 
 header{
     display: flex;
@@ -16,6 +19,7 @@ header{
     background-color: white;
     width: 100vw;
     padding: 20px;
+    z-index: 1;
 }
 
 .logo{
@@ -39,4 +43,40 @@ a{
     background-color: rgb(85, 85, 255);
     padding: 7px 15px 7px 15px;
     color: white;
+}
+
+/* Main */
+main{
+    margin-top: 64px;
+}
+
+.box{
+    margin-left: 20%;
+}
+
+.sezione-iniziale{
+    background-color: lightsteelblue;
+    padding-top: 30px;
+}
+
+.titolo{
+    background-color: pink;
+    width: 70%;
+    height: 200px;
+}
+
+.testo{
+    display: inline-block;
+    background-color: rgb(236, 20, 56);
+    width: 25%;
+    height: 300px;
+}
+
+.jumbotron{
+    display: inline-block;
+    background-color: gray;
+    width: 50%;
+    height: 300px;
+    position: relative;
+    top: 30px;
 }
