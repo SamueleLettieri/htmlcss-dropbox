@@ -49,6 +49,7 @@ a{
 main{
     margin-top: 64px;
     width: 100%;
+    
 }
 
 /* prima sezione */
@@ -84,7 +85,7 @@ main{
 }
 
 /* seconda sezione */
-.servizi{
+.cestino{
     margin-top: 150px;
     width: 100%;
 }
@@ -117,22 +118,62 @@ main{
 
 .container{
     display: flex;
-    width: 100%;
+    width: 70%;
     margin-left: 20%;
-
 }
 
 .st-1{
-    width: 35%;
+    width: 50%;
     background-color: lightskyblue;
     height: 300px;
 
 }
 .st-2{
-    width: 21%;
+    width: 30%;
     background-color: pink;
     height: 300px;
 
 }
 
 /* quarta sezione */
+.marg{
+    margin-top: 150px;
+}
+
+.contenitore{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.micro-are{
+    width: 30%;
+    height: 400px;
+    margin: 10px;
+}
+
+.color1{
+    background-color: rgb(255, 255, 255);
+}
+.color2{
+    background-color: green;
+}
+.color3{
+    background-color: yellow;
+}
+.color4{
+    background-color: red;
+}
+.color5{
+    background-color: black;
+}
+.color6{
+    background-color: gray;
+}
+
+/* quinta sezione */
+.bio{
+    width: 57%;
+    height: 200px;
+    background-color: white;
+}
