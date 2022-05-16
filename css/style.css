@@ -55,6 +55,7 @@ main{
 /* prima sezione */
 .box{
     margin-left: 20%;
+    padding: 20px;
 }
 
 .sezione-iniziale{
@@ -171,9 +172,40 @@ main{
     background-color: gray;
 }
 
-/* quinta sezione */
-.bio{
-    width: 57%;
-    height: 200px;
+/* sesta sezione */
+.loghi{
+    width: 100%;
+    display: flex;
+}
+
+.centro{
+    width: 38%;
     background-color: white;
 }
+
+.loghi4{
+    width: 37%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dimensioni{
+    height: 200px;
+    width: 50%;
+}
+
+/* settima sezione */
+.sfondo{
+    background-color: lightsteelblue;
+    width: 100%;
+    padding: 20px;
+}
+
+.sez{
+    margin-left: 20%;
+    background-color: rgb(163, 0, 27);
+    width: 56%;
+    height: 200px;
+}
+
+/* ottava sezione */
