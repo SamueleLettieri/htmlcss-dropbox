@@ -48,8 +48,10 @@ a{
 /* Main */
 main{
     margin-top: 64px;
+    width: 100%;
 }
 
+/* prima sezione */
 .box{
     margin-left: 20%;
 }
@@ -80,3 +82,57 @@ main{
     position: relative;
     top: 30px;
 }
+
+/* seconda sezione */
+.servizi{
+    margin-top: 150px;
+    width: 100%;
+}
+
+.flex{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+
+    background-color: green;
+    width: 200px;
+    height: 800px;
+}
+
+.team{
+    background-color: rgb(136, 255, 0);
+    width: 70%;
+    height: 200px;
+    margin-top: 40px;
+}
+
+/* terza sezione */
+.descrizione{
+    margin-top:  150px;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    margin-left: 20%;
+
+}
+
+.st-1{
+    width: 35%;
+    background-color: lightskyblue;
+    height: 300px;
+
+}
+.st-2{
+    width: 21%;
+    background-color: pink;
+    height: 300px;
+
+}
+
+/* quarta sezione */
