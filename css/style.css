@@ -252,9 +252,6 @@ hr{
 
 .st-1{
     width: 500px;
-
-
-
 }
 .st-2{
     width: 30%;
@@ -277,15 +274,20 @@ hr{
 }
 
 .contenitore{
+    margin-top: 40px;
     display: flex;
     flex-wrap: wrap;
-    width: 70%;
+    width: 78%;
 }
 
-.micro-are{
-    width: 30%;
+.micro-aree{
+    width: 250px;
     height: 400px;
     margin: 10px;
+}
+
+.img{
+    width: 250px;
 }
 
 .color1{
