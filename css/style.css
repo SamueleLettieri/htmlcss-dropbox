@@ -213,9 +213,29 @@ hr{
 
 .team{
     background-color: rgb(136, 255, 0);
-    width: 70%;
+    width: 75%;
     height: 200px;
     margin-top: 40px;
+}
+
+.tema-box{
+    padding: 20px;
+}
+
+.team-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-special-one{
+    background-color: rgb(85, 85, 255);
+    padding: 12px 15px  15px;
+    color: white;
+}
+
+.paragrafo{
+    margin-top: 30px;
+    width: 550px;
 }
 
 /* terza sezione */
@@ -227,20 +247,28 @@ hr{
 .container{
     display: flex;
     width: 70%;
-    margin-left: 20%;
+    margin-left: 22%;
 }
 
 .st-1{
-    width: 50%;
-    background-color: lightskyblue;
-    height: 300px;
+    width: 500px;
+
+
 
 }
 .st-2{
     width: 30%;
-    background-color: pink;
-    height: 300px;
+    padding: 20px;
+}
 
+.para{
+    margin-bottom:30px ;
+}
+
+.btn-bia{
+    padding: 7px 15px 7px 15px;
+    border:1px solid black;
+    color: black;
 }
 
 /* quarta sezione */
