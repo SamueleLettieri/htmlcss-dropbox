@@ -309,6 +309,11 @@ hr{
     background-color: gray;
 }
 
+
+.p-500{
+    margin-bottom: 40px;
+}
+
 /* sesta sezione */
 .loghi{
     width: 100%;
@@ -318,6 +323,7 @@ hr{
 .centro{
     width: 38%;
     background-color: white;
+    padding-left: 30px;
 }
 
 .loghi4{
@@ -329,7 +335,16 @@ hr{
 .dimensioni{
     height: 200px;
     width: 50%;
+    text-align: center;
 }
+
+.uf{
+    height: 110px;
+    width: 50%;
+    padding-top: 70px;
+}
+
+
 
 /* settima sezione */
 .sfondo{
