@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 /* Header */
@@ -13,7 +14,8 @@ header{
     left: 0;
     background-color: white;
     width: 100vw;
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     z-index: 1;
 }
 
@@ -21,8 +23,15 @@ header{
     width: 100px;
 }
 
+
 .list-header{
     display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.bordo-sotto:hover{
+    border-bottom: 3px solid black;
 }
 
 .link{
@@ -101,8 +110,8 @@ main{
     width: 100%;
 }
 
-.btn-fake{
-
+#punto-freccia{
+    padding-top: 80px;
 }
 
 .btn{
@@ -195,7 +204,7 @@ hr{
 }
 
 .check{
-    color: green;
+    color: blue;
 }
 
 .team{
@@ -264,7 +273,7 @@ hr{
     margin-top: 40px;
     display: flex;
     flex-wrap: wrap;
-    width: 78%;
+    width: 900px;
 }
 
 .micro-aree{
@@ -278,24 +287,31 @@ hr{
 }
 
 .color1{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(9, 168, 76);
 }
 .color2{
-    background-color: green;
+    background-color: rgb(128, 0, 60);
 }
 .color3{
-    background-color: yellow;
+    background-color: rgb(0, 162, 255);
 }
 .color4{
     background-color: red;
 }
 .color5{
-    background-color: black;
+    background-color: rgb(190, 5, 5);
 }
 .color6{
-    background-color: gray;
+    background-color: rgb(189, 236, 255);
 }
 
+.color7{
+    background-color: rgb(12, 0, 177);
+}
+
+.color8{
+    background-color: rgb(209, 255, 2);
+}
 
 .p-500{
     margin-bottom: 40px;
@@ -309,7 +325,7 @@ hr{
 
 .centro{
     width: 38%;
-    background-color: white;
+    background-color: rgb(231, 231, 231);
     padding-left: 30px;
 }
 
@@ -319,11 +335,18 @@ hr{
     flex-wrap: wrap;
 }
 
+
 .dimensioni{
     height: 200px;
     width: 50%;
     text-align: center;
 }
+
+.bord:hover{
+    border: 10px solid;
+    border-color: rgba(255,255,255,0.4);;
+}
+
 
 .uf{
     height: 110px;
@@ -380,12 +403,19 @@ margin-left: 20%;
 
 .d-u{
     border-bottom: 1px solid lightgray;
+    margin-bottom: 30px;
+}
+
+.inverti{
+    display: flex;
+    justify-content: flex-end;
 }
 
 /* footer */
 footer{
     background-color: black;
     padding: 50px;
+    overflow: auto;
 }
 
 .sez9{
@@ -421,4 +451,9 @@ footer{
 
 .u-d{
     color: rgb(160, 160, 160);
+}
+
+.u-f{
+    font-size: 20px;
+    padding-left: 4px;
 }
