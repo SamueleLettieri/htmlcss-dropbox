@@ -288,29 +288,37 @@ hr{
 
 .color1{
     background-color: rgb(9, 168, 76);
+    padding: 50px;
 }
 .color2{
     background-color: rgb(128, 0, 60);
+    padding: 50px;
 }
 .color3{
     background-color: rgb(0, 162, 255);
+    padding: 50px;
 }
 .color4{
     background-color: red;
+    padding: 50px;
 }
 .color5{
     background-color: rgb(190, 5, 5);
+    padding: 50px;
 }
 .color6{
     background-color: rgb(189, 236, 255);
+    padding: 50px;
 }
 
 .color7{
     background-color: rgb(12, 0, 177);
+    padding: 50px;
 }
 
 .color8{
     background-color: rgb(209, 255, 2);
+    padding: 50px;
 }
 
 .p-500{
@@ -329,17 +337,25 @@ hr{
     padding-left: 30px;
 }
 
+.pad{
+    padding-top: 50px;
+}
+
 .loghi4{
     width: 37%;
     display: flex;
     flex-wrap: wrap;
 }
 
+.col{
+    width: 100px;
+    text-align: center;
+}
+
 
 .dimensioni{
-    height: 200px;
     width: 50%;
-    text-align: center;
+    
 }
 
 .bord:hover{
@@ -347,12 +363,12 @@ hr{
     border-color: rgba(255,255,255,0.4);;
 }
 
-
-.uf{
-    height: 110px;
-    width: 50%;
-    padding-top: 70px;
+.l-flex{
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
+
 
 
 
@@ -363,6 +379,7 @@ hr{
 }
 
 .sez{
+    color: rgb(117, 0, 82);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -401,6 +418,27 @@ margin-left: 20%;
     padding-bottom: 30px;
 }
 
+.sotto-testo{
+    display: none;
+}
+
+.domande:hover .sotto-testo{
+    display: block;
+}
+
+.f-giu{
+    display: none;
+}
+
+.domande:hover .f-su{
+    display: none;
+}
+
+.domande:hover .f-giu{
+    display: inline;
+}
+
+ 
 .d-u{
     border-bottom: 1px solid lightgray;
     margin-bottom: 30px;
