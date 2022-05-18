@@ -286,41 +286,6 @@ hr{
     width: 250px;
 }
 
-.color1{
-    background-color: rgb(9, 168, 76);
-    padding: 50px;
-}
-.color2{
-    background-color: rgb(128, 0, 60);
-    padding: 50px;
-}
-.color3{
-    background-color: rgb(0, 162, 255);
-    padding: 50px;
-}
-.color4{
-    background-color: red;
-    padding: 50px;
-}
-.color5{
-    background-color: rgb(190, 5, 5);
-    padding: 50px;
-}
-.color6{
-    background-color: rgb(189, 236, 255);
-    padding: 50px;
-}
-
-.color7{
-    background-color: rgb(12, 0, 177);
-    padding: 50px;
-}
-
-.color8{
-    background-color: rgb(209, 255, 2);
-    padding: 50px;
-}
-
 .p-500{
     margin-bottom: 40px;
 }
@@ -332,7 +297,7 @@ hr{
 }
 
 .centro{
-    width: 38%;
+    width: 33.33%;
     background-color: rgb(231, 231, 231);
     padding-left: 30px;
 }
@@ -342,7 +307,7 @@ hr{
 }
 
 .loghi4{
-    width: 37%;
+    width: 33.33%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -354,13 +319,12 @@ hr{
 
 
 .dimensioni{
-    width: 50%;
-    
+    width: calc(100% / 2);
 }
 
 .bord:hover{
     border: 10px solid;
-    border-color: rgba(255,255,255,0.4);;
+    border-color: rgba(255,255,255,0.4);
 }
 
 .l-flex{
@@ -368,9 +332,40 @@ hr{
     align-content: center;
     justify-content: center;
 }
+.color1{
+    background-color: rgb(9, 168, 76);
+    padding: 20px;
+}
+.color2{
+    background-color: rgb(128, 0, 60);
+    padding: 20px;
+}
+.color3{
+    background-color: rgb(0, 162, 255);
+    padding: 40px;
+}
+.color4{
+    background-color: red;
+    padding: 30px;
+}
+.color5{
+    background-color: rgb(190, 5, 5);
+    padding: 50px;
+}
+.color6{
+    background-color: rgb(189, 236, 255);
+    padding: 40px;
+}
 
+.color7{
+    background-color: rgb(12, 0, 177);
+    padding: 40px;
+}
 
-
+.color8{
+    background-color: rgb(209, 255, 2);
+    padding: 20px;
+}
 
 /* settima sezione */
 .sfondo{
@@ -495,3 +490,6 @@ footer{
     font-size: 20px;
     padding-left: 4px;
 }
+
+
+
